@@ -4,7 +4,7 @@
 # Key: .env o st.secrets["UNSPLASH_ACCESS_KEY"]
 import streamlit as st
 import requests  # Para API
-from dotenv import load_dotenv  # Para key
+#from dotenv import load_dotenv  # Para key
 import os
 import math  # Para paginación
 from streamlit_config import configure_streamlit, show_query_feedback, custom_spinner, ethics_disclaimer
