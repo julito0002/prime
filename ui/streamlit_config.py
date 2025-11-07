@@ -1,7 +1,7 @@
 # streamlit_config.py - Módulo 3: Configuración Streamlit (dotenv, responsive, cache, ética UI)
 # Alineado cronograma: Día 2 dotenv key; Día 3 muestra query; Día 4 loading spinner; Día 5 clics query; Día 6 3 filas; Día 7 teléfono test; Día 8 lags; Día 9 ética UI
 import streamlit as st  # UI
-from dotenv import load_dotenv  # Día 2: Key .env
+#from dotenv import load_dotenv  # Día 2: Key .env
 import os  # Para env
 import logging  # Debug
 
@@ -13,7 +13,7 @@ def configure_streamlit():
     Configuración central de Streamlit: Key dotenv, layout responsive, cache, ética.
     """
     # Día 2: Carga .env (API keys OpenAI/Unsplash)
-    load_dotenv()
+    #load_dotenv()
     api_openai = os.getenv('OPENAI_API_KEY')
     api_unsplash = os.getenv('UNSPLASH_ACCESS_KEY')
     if not api_openai or not api_unsplash:
