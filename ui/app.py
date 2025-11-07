@@ -12,7 +12,7 @@ configure_streamlit()  # Llama al inicio
 # En button: with custom_spinner("Buscando..."):
 # Después: ethics_disclaimer()
 
-load_dotenv()  # Carga .env si usas
+#load_dotenv()  # Carga .env si usas
 
 # Config API Unsplash (usa st.secrets en Cloud o .env local)
 ACCESS_KEY = st.secrets.get("UNSPLASH_ACCESS_KEY", os.getenv("UNSPLASH_ACCESS_KEY"))
