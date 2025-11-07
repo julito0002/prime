@@ -21,7 +21,7 @@ st.set_page_config(layout="wide", page_title="Turismo Lima IA - 3 Carruseles", p
 UNSPLASH_KEY = st.secrets.get("UNSPLASH_ACCESS_KEY", os.getenv("UNSPLASH_ACCESS_KEY"))
 OPENAI_KEY = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
 
-CSV_PATH = "/mnt/data/lugares_lima.csv"   # ajusta si tu CSV está en otra ruta
+CSV_PATH = "/prime/data/lugares_lima.csv"   # ajusta si tu CSV está en otra ruta
 IMAGES_PER_CAROUSEL = 10
 TOTAL_IMAGES = IMAGES_PER_CAROUSEL * 3
 AUTOPLAY_DELAY = 0.45  # segundos entre frames (ajusta velocidad)
