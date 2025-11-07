@@ -11,3 +11,5 @@ matplotlib==3.8.2
 pytest==7.4.3
 pytest-mock==3.11.1
 scipy==1.11.4  # Para correlación en GA fitness
+requests==2.31.0  # Para Unsplash API fetch (nuevo)
+math  # Built-in, no pip
